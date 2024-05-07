@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-
+import { useNavigate } from "react-router-dom";
 import './Nvbar.css'
 
 import logo from '../../assets/Assets/logo.png'
 import cart_icon from '../../assets/Assets/cart_icon.png'
 const Navbar = () => {
   const [menu, Setmenu] = useState("shop")
-
+  const navigate = useNavigate();
   return (
     <div className='  navbar  flex  justify-around p-4  '>
 
@@ -22,6 +22,7 @@ const Navbar = () => {
           onClick={(() => {
 
             Setmenu("shop")
+            navigate("/");
 
           })}
        
@@ -32,7 +33,7 @@ const Navbar = () => {
 onClick={(() => {
 
   Setmenu("man")
-
+  navigate("/mens");
 })}
 className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Men {menu === "man" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>
         
@@ -41,6 +42,7 @@ className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >M
 onClick={(() => {
 
   Setmenu("whomens")
+  navigate("/womens")
 
 })}
 className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Women {menu === "whomens" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>   <li
@@ -48,7 +50,7 @@ className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >W
 onClick={(() => {
 
   Setmenu("kids")
-
+  navigate("/kids")
 })}
 className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Kid {menu === "kids" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>
 
