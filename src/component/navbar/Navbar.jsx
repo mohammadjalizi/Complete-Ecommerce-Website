@@ -15,10 +15,10 @@ const Navbar = () => {
 </div>
 <ul className=' flex  items-center gap-12 text-[#626252] text-[20px] font-medium '>
 
-<li>Shop</li>
-<li>Men</li>
-<li>Women</li>
-<li>Kids</li>
+<li className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Shop <hr className=' *: border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> </li>
+<li className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Men</li>
+<li className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Women</li>
+<li className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Kids</li>
 
 </ul>
 <div className="login-cart">
