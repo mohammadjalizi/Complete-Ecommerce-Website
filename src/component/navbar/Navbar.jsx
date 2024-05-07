@@ -8,12 +8,12 @@ const Navbar = () => {
   return (
     <div className='  navbar  flex  justify-around p-4  '>
       
-<div >
+<div className=' flex items-center ' >
 
 <img src={logo} alt="" />
-<p>SHOPPER</p>
+<p className=' text-[#171717] text-[38px] ' >SHOPPER</p>
 </div>
-<ul>
+<ul className=' flex '>
 
 <li>Shop</li>
 <li>Men</li>
