@@ -5,7 +5,11 @@ const Navbar = () => {
   return (
     <div>
       
+<div >
 
+<img src={logo} alt="" />
+<p>SHOPPER</p>
+</div>
 
 
 
