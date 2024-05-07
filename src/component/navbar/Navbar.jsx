@@ -21,9 +21,9 @@ const Navbar = () => {
 <li className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Kids</li>
 
 </ul>
-<div className="login-cart">
+<div className="login-cart flex  items-center  gap-11 ">
 
-<button>Login</button>
+<button className='  w-40 h-14 outline-none  border  border-[#7a7a7a]    rounded-full  text-[#515151]  text-[20px] font-medium  bg-white cursor-pointer active:bg-[#f3f3f3]' >Login</button>
 <img src={cart_icon} alt="" />
 </div>
 
