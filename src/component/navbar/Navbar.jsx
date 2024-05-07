@@ -34,23 +34,23 @@ onClick={(() => {
   Setmenu("man")
 
 })}
-className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Shop {menu === "man" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>
+className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Men {menu === "man" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>
         
         <li
 
 onClick={(() => {
 
-  Setmenu("shop")
+  Setmenu("whomens")
 
 })}
-className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Shop {menu === "shop" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>   <li
+className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Women {menu === "whomens" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>   <li
 
 onClick={(() => {
 
-  Setmenu("shop")
+  Setmenu("kids")
 
 })}
-className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Shop {menu === "shop" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>
+className='flex   flex-col items-center justify-center  gap-1 cursor-pointer' >Kid {menu === "kids" ? <hr className='  border-none  w-3/4 h-[3px]   rounded-xl	bg-[#FF4141] ' /> : <></>} </li>
 
 
       </ul>
