@@ -11,9 +11,9 @@ const Navbar = () => {
 <div className=' flex items-center ' >
 
 <img src={logo} alt="" />
-<p className=' text-[#171717] text-[38px] ' >SHOPPER</p>
+<p className=' text-[#171717] text-[38px]  font-semibold ' >SHOPPER</p>
 </div>
-<ul className=' flex '>
+<ul className=' flex  items-center gap-12 text-[#626252] text-[20px] font-medium '>
 
 <li>Shop</li>
 <li>Men</li>
