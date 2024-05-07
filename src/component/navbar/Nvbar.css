@@ -3,3 +3,11 @@ box-shadow: 0 1px 3px -2px black;
 
 
 }
+hr{
+
+background: #FF4141;
+height: 3px;
+width: 80%;
+border-radius: 18px;
+border: none;
+}
