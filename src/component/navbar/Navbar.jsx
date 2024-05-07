@@ -25,6 +25,7 @@ const Navbar = () => {
 
 <button className='  w-40 h-14 outline-none  border  border-[#7a7a7a]    rounded-full  text-[#515151]  text-[20px] font-medium  bg-white cursor-pointer active:bg-[#f3f3f3]' >Login</button>
 <img src={cart_icon} alt="" />
+<div className="cart-count size-6 flex justify-center items-center mt-[-35px] ml-[-55px]  rounded-xl text-[14px]  bg-red-500 text-white ">0</div>
 </div>
 
     </div>
