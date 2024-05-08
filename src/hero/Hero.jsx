@@ -15,10 +15,10 @@ const Hero = () => {
 <p className='  text-[#171717] text-8xl font-bold '>new</p>
 <img className=' w-[105px] ' src={handicon} alt="" />
         </div>
-        <p>collections</p>
-        <p>for everyone</p>
+        <p className=' text-[#171717] text-8xl font-bold '>collections</p>
+        <p className=' text-[#171717] text-8xl font-bold '>for everyone</p>
     </div>
-<div className="hero-last-btn">
+<div className="hero-last-btn flex    items-center justify-center gap-4 w-[310px] h-[70px] border   rounded-3xl mt-8 bg-[#ff4141] text-white text-[22px] font-medium     ">
 
 <div>   latest Collection </div>
 <img src= {Arrowicon} alt="" />
