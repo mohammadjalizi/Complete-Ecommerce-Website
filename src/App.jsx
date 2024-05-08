@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './component/navbar/Navbar'
 
+import Shop from './pages/Shop'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,7 @@ function App() {
   return (
     <>
 <Navbar/>
+<Shop/>
 
     </>
   )
