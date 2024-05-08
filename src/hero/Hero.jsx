@@ -11,9 +11,9 @@ const Hero = () => {
     <h2 className=' text-[#090909] text-2xl  font-semibold '>NEEW ARRIVALS ONLY</h2>
     <div>
 
-        <div className="hand-icon">
-<p>new</p>
-<img src={handicon} alt="" />
+        <div className="hand-icon flex items-center gap-5">
+<p className='  text-[#171717] text-8xl font-bold '>new</p>
+<img className=' w-[105px] ' src={handicon} alt="" />
         </div>
         <p>collections</p>
         <p>for everyone</p>
