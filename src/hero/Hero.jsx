@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div className=' hero flex '>
   
-    <div className="hero-left flex-1 ">
-    <h2>NEEW ARRIVALS ONLY</h2>
+    <div className="hero-left flex-1 flex  flex-col justify-center gap-5  pl-44  leading-[1.1]  ">
+    <h2 className=' text-[#090909] text-2xl  font-semibold '>NEEW ARRIVALS ONLY</h2>
     <div>
 
         <div className="hand-icon">
