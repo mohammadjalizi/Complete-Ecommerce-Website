@@ -5,9 +5,9 @@ import Arrowicon from '../assets/Assets/arrow.png'
 import heroimg from '../assets/Assets/hero_image.png'
 const Hero = () => {
   return (
-    <div className=' hero '>
+    <div className=' hero flex '>
   
-    <div className="hero-left">
+    <div className="hero-left flex-1 ">
     <h2>NEEW ARRIVALS ONLY</h2>
     <div>
 
