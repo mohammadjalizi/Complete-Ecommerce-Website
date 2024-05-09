@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../hero/Hero'
 import Popler from '../pupler/Popler'
 import Offers from '../oFFers/Offers'
+import NewcCollection from '../newCollection/NewcCollection'
 
 const Shop = () => {
   return (
@@ -12,6 +13,8 @@ const Shop = () => {
 <Popler/>
 
 <Offers/>
+
+<NewcCollection/>
 
     </div>
   )
