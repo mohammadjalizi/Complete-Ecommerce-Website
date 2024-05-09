@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './component/navbar/Navbar'
 
 import Shop from './pages/Shop'
+import Footer from './footer/Footer'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <>
 <Navbar/>
 <Shop/>
-
+<Footer/>
     </>
   )
 }
