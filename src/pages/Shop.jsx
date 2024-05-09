@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../hero/Hero'
 import Popler from '../pupler/Popler'
+import Offers from '../oFFers/Offers'
 
 const Shop = () => {
   return (
@@ -9,6 +10,8 @@ const Shop = () => {
 <Hero/>
 
 <Popler/>
+
+<Offers/>
 
     </div>
   )
