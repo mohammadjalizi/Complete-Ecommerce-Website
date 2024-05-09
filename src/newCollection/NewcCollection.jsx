@@ -3,7 +3,7 @@ import new_collection from '../assets/Assets/new_collections'
 import Item from '../item/Item'
 function NewcCollection() {
   return (
-    <div className=' newcollections  flex flex-col items-center gap-2  h-[90vh] '>
+    <div className=' newcollections  flex flex-col items-center gap-2   mb-[100px] '>
         <h1 className='text=[#171717] text-5xl font-semibold'>NEW COLLECTIONS</h1>
         <hr className=' w-[200px] h-2 rounded-lg bg-[#252525] ' />
         <div className="collections  mt-12 flex flex-wrap  gap-7   justify-center  md:mx-44   ">
